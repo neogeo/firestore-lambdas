@@ -1,0 +1,2 @@
+google-cloud-firestore==0.28.0
+
