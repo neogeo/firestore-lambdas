@@ -28,7 +28,7 @@ cp build/lambda_function.zip .
 if [ ! -d .lambda_uploader_env_py27 ]; then
     virtualenv .lambda_uploader_env_py27
     . .lambda_uploader_env_py27/bin/activate
-    pip install -r lambda_uploader_requirements.txt
+    pip install -r requirements/lambda_uploader_requirements.txt
     deactivate
 fi
 
