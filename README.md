@@ -1,5 +1,5 @@
 # Firestore Lambdas
-Python AWS Lambda functions for interacting with firestore
+Python AWS Lambda functions for interacting with firestore. The main purpose of this project is to make it easier to develope lambda fuctions on a Mac, while still creating valid linux binaries for the AWS lambda environment. 
 This is currently a single lambda function that adds a document to Firestore. More specifically, it creates an `account` in the given db. 
 
 ### Language
