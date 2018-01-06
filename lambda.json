@@ -3,9 +3,9 @@
   "description": "Save a shopify account in firestore",
   "region": "us-west-2",
   "runtime": "python2.7",
-  "handler": "lambda_firestore_create_shopify_account.handler",
-  "role": "{YOUR_LAMBDA_ROLE_ARN}",
-  "requirements": ["google-cloud-firestore==0.28.0"],
+  "handler": "lambdas.lambda_firestore_create_shopify_account.handler",
+  "role": "arn:aws:iam::210751417156:role/lambda_full_access",
+  "requirements": [""],
   "ignore": [
     "circle\\.yml$",
     "\\.git$",
